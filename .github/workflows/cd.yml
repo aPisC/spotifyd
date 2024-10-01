@@ -18,7 +18,7 @@ jobs:
           - artifact_type: 'full_pulse'
             feature: 'dbus_keyring,dbus_mpris'  # Full version has all extra features and audio backends enabled
           - build_target: linux-armhf
-            os: ubuntu-18.04
+            os: ubuntu-20.04
             artifact_prefix: linux-armhf
             target: arm-unknown-linux-gnueabihf
           - build_target: linux-armhf
